@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<heade>
+  <meta charset="UTF8" />
+  <title>King phone</title>
+  <link rel="stylesheet" href="./codes.css" />
+</heade>
+<body>
+  <header>
+    <img id="logo" src="data:image/png;base64,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" />
+    <h1>KING Phone</h1>
+    <nav>
+      <ul>
+        <li><a href="#phone">phones</a></li>
+        <li><a href="#accessory">Phone accessory</a></li>
+        <li><a href="#tablet">Tablet</a></li>
+        <li><a href="#best">Best feature phones</a></li>  
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <section role="region" aria-labelledby="phone">
+        <h2 id="phone">Phones</h2>
+        <div class="info">
+          <img src="https://m.media-amazon.com/images/I/61kGZOncTpL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/71AQ3qEZ-VL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/81te-myu0PS._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/81ejU1gSrxL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/71YgPPEwFeL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/> 
+          <img src="https://m.media-amazon.com/images/I/81JUZpUBL3L._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/71hsE7tFasL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/81iw7GsgIlL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/619NisKmiuL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/61yGADO2vDL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/61ltTANVlyL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img srec="https://m.media-amazon.com/images/I/61yw58HeRiL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/61cIST+osWL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/71XdEuirmbL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/51w5z3wOpTL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img="https://m.media-amazon.com/images/I/61p79A67kPL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/51YN1IeBhmL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/61PaoZV4EYL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/41bC7d7AKbL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/61HxinMazUL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/51AphApmzjL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/61B5ZnFAS8L._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/51uo5RSNQSL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/619pzIe78aL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/71fdocdU1uL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+          <img src="https://m.media-amazon.com/images/I/51nR3lOZQpL._AC_UL600_FMwebp_QL65_.jpg" weight="300px" height="300px"/>
+        </div> 
+      </section>
+          <section role="region" aria-labelledby="accessory">
+            <h2 id="accessory">Phone accessory</h2>
+            <div class="info">
+              <img src="https://m.media-amazon.com/images/I/41XzzIzlhKL._AC._SR240,240.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/51OcwqYVCGL._AC._SR240,240.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/31LhR8lz+7L._AC._SR240,240.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/31aO+rnEIxL._AC._SR240,240.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/31KkXuPf4sL._AC._SR240,240.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/41wP14x2rXL._AC._SR240,240.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/71K3xqapRCL._AC._SR360,460.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/8107kOhQuOL._AC._SR360,460.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/61VWIZfYnNL._AC._SR360,460.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/61FUvZf81mL._AC._SR360,460.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/61dO61b5Q-L._AC._SR360,460.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/61ueUjza47L._AC._SR360,460.jpg" weight="300px" height="300px"/>
+              <img src="https://m.media-amazon.com/images/I/41XwXJGZ-eL._AC_UL480_QL65_.jpg" weight="200px" height="200px"/>
+              <img src="https://m.media-amazon.com/images/I/61O0DOnrhnL._AC_UL480_QL65_.jpg" weight="200px" height="200px"/>
+            </div>
+          </section>
+          <section role="region" aria-labelledby="Tablet">
+            <h2 id="tablet">Tablet</h2>
+            <div class="info">
+              <img src="https://m.media-amazon.com/images/I/61OWv7rWlYL._AC._SR360,460.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/71XQ+EjG8QL._AC._SR360,460.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/61kc6AKinaL._AC._SR360,460.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/71ZZXyoq6mL._AC._SR360,460.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/81Y5WuARqpS._AC._SR360,460.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/71ey-9D8yDL._AC._SR360,460.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/61c9HZ9Cb1L._AC_UL480_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/513tmuYpH9L._AC_UL480_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/51NRG66TrCL._AC_UL480_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/61kc6AKinaL._AC_UL480_QL65_.jpg" weight="250px" height="250px"/>
+            </div>
+          </section>
+          <section role="region" aria-labelledby="best">
+            <h2 id="best">Best feature phones</h2>
+            <div class="info">
+              <img src="https://m.media-amazon.com/images/I/71yzJoE7WlL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/512YXWpYS0L._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/71QE00iB9IL._AC_UL600_FMwebp_QL65_.jpg"weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/71xb2xkN5qL._AC_UL600_FMwebp_QL65_.jpg"weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/61VuVU94RnL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/61U+Xz90BAL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/713+ZzobvwL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/616xeaUEdbL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/81VFq+tCFiL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/71Y06Do6hxL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/71lMeBh52wL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/61qgJ64LKuL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/61I3x85aagL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/616EMHqEQfL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/61Y4iVRUatL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/41vaWMYcpzL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px">
+              <img src="https://m.media-amazon.com/images/I/616ubTepJ8L._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+              <img src="https://m.media-amazon.com/images/I/51jI6yi2BLL._AC_UL600_FMwebp_QL65_.jpg" weight="250px" height="250px"/>
+            </div>
+          </section>
+    </form>
+  </main>
+  <footer>
+    <address>
+      <a href="https://www.facebook.com/kingphoneplus/">KingPhonePlus</a> <br />
+      the pyramid <br />
+      Faisal <br />
+      October <br />
+      Egypt
+
+    </address>
+  </footer>
+</body>
+
+</html>
